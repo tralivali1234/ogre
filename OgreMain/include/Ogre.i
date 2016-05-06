@@ -18,7 +18,9 @@
 %include std_string.i
 %include std_pair.i
 %include std_map.i
+#ifndef SWIG_CSHARP
 %include std_multimap.i
+#endif
 %include std_vector.i
 %include exception.i 
  
@@ -89,8 +91,10 @@ typedef Ogre::SharedPtr<StringVector> StringVectorPtr;
 %include "OgrePlaneBoundedVolume.h"
 // I/O
 %include "OgreConfigOptionMap.h"
+#ifndef SWIG_CSHARP // generates to long filenames due to allocator types
 %ignore Ogre::ConfigFile::load; // conflicting overloads
 %include "OgreConfigFile.h"
+#endif
 %feature("valuewrapper") Ogre::Log::Stream;
 %include "OgreLog.h"
 %include "OgreLogManager.h"
@@ -121,7 +125,9 @@ typedef Ogre::SharedPtr<StringVector> StringVectorPtr;
 %include "OgreNameGenerator.h"
 %include "OgreController.h"
 %include "OgreRenderSystemCapabilities.h"
+#ifndef SWIG_CSHARP
 %include "OgreGpuProgramParams.h"
+#endif
 %include "OgreImage.h"
 %include "OgreBillboard.h"
 %include "OgreParticle.h"
@@ -139,12 +145,15 @@ typedef Ogre::SharedPtr<StringVector> StringVectorPtr;
         %include "OgreGpuProgram.h"
             %include "OgreHighLevelGpuProgram.h"
 %include "OgreScriptCompiler.h"
+#ifndef SWIG_CSHARP
 %include "OgreTextureUnitState.h"
+#endif
 %include "OgreControllerManager.h"
 %include "OgreCompositor.h"
 %include "OgreCompositionTechnique.h"
 %include "OgreCompositionTargetPass.h"
 %include "OgreResourceBackgroundQueue.h"
+#ifndef SWIG_CSHARP
 // instantiated in c++ code
 // %template(HardwareVertexBufferPtr) Ogre::SharedPtr<Ogre::HardwareVertexBuffer>;
 %include "OgreHardwareVertexBuffer.h"
@@ -244,6 +253,7 @@ typedef Ogre::SharedPtr<StringVector> StringVectorPtr;
 %include "OgreSceneManager.h"
 %include "OgreSceneManagerEnumerator.h"
 %include "OgreRoot.h"
+#endif
 // dont wrap: platform specific
 // %include "OgreWindowEventUtilities.h"
 // %include "OgreTimer.h"
