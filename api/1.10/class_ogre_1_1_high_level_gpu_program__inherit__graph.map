@@ -1,0 +1,12 @@
+<map id="Ogre::HighLevelGpuProgram" name="Ogre::HighLevelGpuProgram">
+<area shape="rect" id="node6" href="$class_ogre_1_1_cg_program.html" title="Specialisation of HighLevelGpuProgram to provide support for nVidia&#39;s CG language. " alt="" coords="803,5,927,32"/>
+<area shape="rect" id="node7" href="$class_ogre_1_1_d3_d11_h_l_s_l_program.html" title="Specialization of HighLevelGpuProgram to provide support for D3D11 High&#45;Level Shader Language (HLSL)..." alt="" coords="775,56,956,83"/>
+<area shape="rect" id="node8" href="$class_ogre_1_1_d3_d9_h_l_s_l_program.html" title="Specialisation of HighLevelGpuProgram to provide support for D3D9 High&#45;Level Shader Language (HLSL)..." alt="" coords="778,107,953,133"/>
+<area shape="rect" id="node9" href="$class_ogre_1_1_g_l_s_l_1_1_g_l_s_l_program.html" title="Specialisation of HighLevelGpuProgram to provide support for OpenGL Shader Language (GLSL)..." alt="" coords="775,157,956,184"/>
+<area shape="rect" id="node10" href="$class_ogre_1_1_g_l_s_l_shader.html" title="Specialisation of HighLevelGpuProgram to encapsulate shader objects obtained from compiled shaders wr..." alt="" coords="799,208,931,235"/>
+<area shape="rect" id="node11" href="$class_ogre_1_1_unified_high_level_gpu_program.html" title="Specialisation of HighLevelGpuProgram which just delegates its implementation to one other high level..." alt="" coords="775,259,956,301"/>
+<area shape="rect" id="node2" href="$class_ogre_1_1_gpu_program.html" title="Defines a program which runs on the GPU such as a vertex or fragment program. " alt="" coords="359,132,489,159"/>
+<area shape="rect" id="node3" href="$class_ogre_1_1_resource.html" title="Abstract class representing a loadable resource (e.g. " alt="" coords="196,132,311,159"/>
+<area shape="rect" id="node4" href="$class_ogre_1_1_string_interface.html" title="Class defining the common interface which classes can use to present a reflection&#45;style, self&#45;defining parameter set to callers. " alt="" coords="5,107,148,133"/>
+<area shape="rect" id="node5" href="$class_ogre_1_1_allocated_object.html" title="Superclass for all objects that wish to use custom memory allocators when their new / delete operator..." alt="" coords="23,157,130,184"/>
+</map>
